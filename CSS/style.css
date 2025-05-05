@@ -1,0 +1,30 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  header {
+    background: linear-gradient(to right, #007bff, #0056b3);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 2em;
+    animation: color-change 2s infinite alternate;
+  }
+  @keyframes color-change {
+    0%{
+        color: rgb(0, 0, 204);
+    }
+    100%{
+        color: rgb(255, 255, 255);
+    }
+  }
+
+  .btn-light {
+    color: #000;
+    font-weight: 600;
+  }
+  .display-4 {
+    font-family: monospace;
+  }
